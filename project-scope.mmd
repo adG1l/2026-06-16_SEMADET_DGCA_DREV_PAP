@@ -1,0 +1,95 @@
+flowchart TD
+
+A[Proyecto de Analitica de Datos Control de emisiones]
+
+B[Prediccion de incumplimiento]
+C[Mapas de calor de emisiones]
+D[Prediccion de afluencia]
+E[Deteccion de anomalias]
+F[Analisis de reincidencia]
+G[Impacto ambiental]
+H[Segmentacion vehicular]
+I[Optimizacion operativa]
+J[Indicadores de politica publica]
+K[Dashboard ejecutivo]
+
+
+A --> B[Prediccion de incumplimiento]
+A --> C[Mapas de calor de emisiones]
+A --> D[Prediccion de afluencia]
+A --> E[Deteccion de anomalias]
+A --> F[Analisis de reincidencia]
+A --> G[Impacto ambiental]
+A --> H[Segmentacion vehicular]
+A --> I[Optimizacion operativa]
+A --> J[Indicadores de politica publica]
+A --> K[Dashboard ejecutivo]
+
+
+%% Predicción de incumplimiento %%
+B --> B1[¿Qué vehículos tienen mayor probabilidad de no verificar?]
+B --> B2[Modelo de clasificación]
+
+%% Mapas de calor de emisiones %%
+C --> C1[Colonias o municipios con mayores niveles de vehículos rechazados]
+C --> C2[GIS y visualización geoespacial]
+
+%% Predicción de afluencia %%
+D --> D1[Pronóstico de citas por centro y periodo]
+D --> D2[Series de tiempo]
+
+%% Detección de anomalías %%
+E --> E1[Centros con tasas de aprobación inusualmente altas o bajas]
+E --> E2[Posibles problemas operativos o de calidad]
+
+%% Análisis de reincidencia %%
+F --> F1[Vehículos que fallan repetidamente]
+F --> F2[Marcas, modelos, años y tecnologías más problemáticas]
+
+%% Impacto ambiental %%
+G --> G1[Estimación de toneladas de contaminantes evitadas por el programa]
+G --> G2[Indicadores ambientales]
+
+%% Segmentación vehicular %%
+H --> H1[Clasificación por antigüedad, combustible, tipo de vehículo y tecnología]
+H --> H2[Perfilamiento de flota vehicular]
+
+%% Optimización operativa %%
+I --> I1[Balanceo de carga entre centros]
+I --> I2[Reducción de tiempos de espera]
+
+%% Indicadores de política pública %%
+J --> J1[Cobertura de verificación]
+J --> J2[Cumplimiento por región]
+J --> J3[Efectividad de campañas de regularización]
+
+%% Dashboard ejecutivo %%
+K --> K1[KPIs en tiempo real]
+K --> K2[Cumplimiento]
+K --> K3[Rechazos]
+K --> K4[Emisiones]
+K --> K5[Tendencias históricas]
+
+classDef blue fill:#2563EB,color:#fff
+classDef indigo fill:#4F46E5,color:#fff
+classDef violet fill:#7C3AED,color:#fff
+classDef emerald fill:#059669,color:#fff
+classDef teal fill:#0F766E,color:#fff
+classDef amber fill:#D97706,color:#fff
+classDef orange fill:#EA580C,color:#fff
+classDef rose fill:#E11D48,color:#fff
+classDef slate fill:#475569,color:#fff
+classDef cyan fill:#0891B2,color:#fff
+classDef magenta fill:#C2185B,color:#fff
+
+class A blue
+class B indigo
+class C violet
+class D emerald
+class E teal
+class F amber
+class G orange
+class H rose
+class I slate
+class J cyan
+class K magenta
